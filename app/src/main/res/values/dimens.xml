@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_margin_padding_extra_extra_small">1dp</dimen>
+    <dimen name="default_margin_padding_extra_small">2dp</dimen>
+    <dimen name="default_margin_padding_small">4dp</dimen>
+    <dimen name="default_margin_padding">8dp</dimen>
+    <dimen name="default_margin_padding_large">16dp</dimen>
+    <dimen name="default_margin_padding_extra_large">24dp</dimen>
+    <dimen name="default_margin_padding_extra_extra_large">32dp</dimen>
+    
+    <dimen name="hero_item_imv_hero_icon_size">80dp</dimen>
+    <dimen name="hero_item_txt_size">30sp</dimen>
+    <dimen name="detail_imv_hero_banner_size">250dp</dimen>
+    <dimen name="detail_imv_hero_icon_size">80dp</dimen>
+    <dimen name="detail_txt_hero_name_size">30sp</dimen>
+    <dimen name="detail_txt_title_size">24sp</dimen>
+    <dimen name="detail_txt_desc_size">16sp</dimen>
+    <dimen name="detail_imv_hero_skill_size">50dp</dimen>
+</resources>

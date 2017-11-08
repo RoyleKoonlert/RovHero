@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/detail_imv_hero_banner"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/detail_imv_hero_banner_size"
+            android:scaleType="centerCrop"
+            tools:src="@drawable/ic_launcher_background" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="@dimen/default_margin_padding">
+
+            <ImageView
+                android:id="@+id/detail_imv_hero_icon"
+                android:layout_width="@dimen/detail_imv_hero_icon_size"
+                android:layout_height="@dimen/detail_imv_hero_icon_size"
+                tools:src="@drawable/ic_launcher_background" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/detail_tv_hero_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginEnd="@dimen/default_margin_padding_large"
+                    android:textColor="@color/gold"
+                    android:textSize="@dimen/detail_txt_hero_name_size"
+                    android:textStyle="bold"
+                    tools:text="TextView" />
+
+                <ImageView
+                    android:id="@+id/detail_imv_hero_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:adjustViewBounds="true"
+                    tools:src="@drawable/ic_hero_type_assassin" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:id="@+id/detail_imv_skill1"
+                android:layout_width="@dimen/detail_imv_hero_skill_size"
+                android:layout_height="@dimen/detail_imv_hero_skill_size"
+                android:layout_marginStart="@dimen/default_margin_padding"
+                tools:src="@drawable/ic_launcher_background" />
+
+            <ImageView
+                android:id="@+id/detail_imv_skill2"
+                android:layout_width="@dimen/detail_imv_hero_skill_size"
+                android:layout_height="@dimen/detail_imv_hero_skill_size"
+                android:layout_marginStart="@dimen/default_margin_padding"
+                tools:src="@drawable/ic_launcher_background" />
+
+            <ImageView
+                android:id="@+id/detail_imv_skill3"
+                android:layout_width="@dimen/detail_imv_hero_skill_size"
+                android:layout_height="@dimen/detail_imv_hero_skill_size"
+                android:layout_marginStart="@dimen/default_margin_padding"
+                tools:src="@drawable/ic_launcher_background" />
+
+            <ImageView
+                android:id="@+id/detail_imv_skill4"
+                android:layout_width="@dimen/detail_imv_hero_skill_size"
+                android:layout_height="@dimen/detail_imv_hero_skill_size"
+                android:layout_marginStart="@dimen/default_margin_padding"
+                tools:src="@drawable/ic_launcher_background" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/detail_tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/default_margin_padding"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/detail_txt_title_size"
+            android:textStyle="bold"
+            tools:text="@tools:sample/lorem" />
+
+        <TextView
+            android:id="@+id/detail_tv_decs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/default_margin_padding_large"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/detail_txt_desc_size"
+            tools:text="@tools:sample/lorem/random" />
+
+
+    </LinearLayout>
+
+</ScrollView>
